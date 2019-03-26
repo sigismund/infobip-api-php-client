@@ -7,8 +7,8 @@
 
 namespace infobip\api\model\people\persons;
 
-use infobip\api\model\people\persons\Email;
-use infobip\api\model\people\persons\Phone;
+use infobip\api\model\people\persons\contacts\Email;
+use infobip\api\model\people\persons\contacts\Phone;
 
 /**
  * This is a generated class and is not intended for modification!

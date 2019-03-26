@@ -5,30 +5,30 @@
  * @author: Zain Baloch
  */
 
-namespace infobip\api\model\people\persons;
+namespace infobip\api\model\people\persons\contacts;
 
 /**
  * This is a generated class and is not intended for modification!
  */
-class Email implements \JsonSerializable
+class Phone implements \JsonSerializable
 {
-    /* @var $address string */
-    private $address;
+    /* @var $number string */
+    private $number;
 
     /**
      * @return string
      */
-    public function getAddress()
+    public function getNumber()
     {
-        return $this->address;
+        return $this->number;
     }
 
     /**
-     * @param string $address
+     * @param string $number
      */
-    public function setAddress($address)
+    public function setNumber($number)
     {
-        $this->address = $address;
+        $this->number = $number;
     }
 
     /**
